@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -62,17 +63,18 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// KrimiDansk updated colors to better match the image
+				// KrimiDansk updated colors to match the image - dark grey palette
 				krimidansk: {
-					'dark-blue': '#0B2545',
-					'navy': '#134074',
-					'steel-blue': '#4C6885',
-					'dark-steel': '#2D4A65',
-					'midnight': '#091C32',
+					'dark-bg': '#1A1A1A',
+					'medium-grey': '#333333',
+					'light-grey': '#4A4A4A',
+					'accent-grey': '#555555',
+					'dark-olive': '#3A3A30',
+					'concrete': '#CECEC4',
 					'light-text': '#EEF4ED',
 					'dark-text': '#1A1F2B',
-					'red': '#8B0000',
 					'burgundy': '#5F0F30',
+					'accent-green': '#4C544A',
 				}
 			},
 			borderRadius: {
@@ -119,3 +121,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+

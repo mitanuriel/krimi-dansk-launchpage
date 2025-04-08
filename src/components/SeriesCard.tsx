@@ -20,13 +20,13 @@ const SeriesCard = ({ title, description, difficulty }: SeriesCardProps) => {
   };
 
   return (
-    <div className="bg-gradient-card rounded-xl shadow-md overflow-hidden">
+    <div className="bg-krimidansk-medium-grey/90 backdrop-blur-sm rounded-xl shadow-lg overflow-hidden border border-krimidansk-accent-grey/30 hover-scale">
       <div className="p-6">
         <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3 ${getDifficultyColor()}`}>
           {difficulty}
         </span>
-        <h3 className="text-xl font-bold text-krimidansk-navy mb-2">{title}</h3>
-        <p className="text-gray-700">{description}</p>
+        <h3 className="text-xl font-bold text-krimidansk-light-text mb-2">{title}</h3>
+        <p className="text-krimidansk-concrete">{description}</p>
       </div>
     </div>
   );

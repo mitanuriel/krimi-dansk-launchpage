@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import FeatureCard from "@/components/FeatureCard";
@@ -7,10 +8,10 @@ import { Film, BookOpen, School, Globe, MessageSquare, Headphones } from "lucide
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-krimidansk-midnight to-krimidansk-dark-blue text-krimidansk-light-text relative">
+    <div className="min-h-screen bg-gradient-to-b from-krimidansk-dark-bg to-krimidansk-medium-grey text-krimidansk-light-text relative">
       {/* Background Image Overlay */}
       <div 
-        className="absolute inset-0 bg-[url('/lovable-uploads/51bcff28-9c50-4ad7-ab29-5427e4951aee.png')] bg-cover bg-center bg-fixed opacity-40 mix-blend-overlay"
+        className="absolute inset-0 bg-[url('/crime-scene-bg.jpg')] bg-cover bg-center bg-fixed opacity-30 mix-blend-overlay"
         aria-hidden="true"
       ></div>
 
@@ -22,7 +23,7 @@ const Index = () => {
             <h1 className="text-2xl font-bold text-krimidansk-light-text">KrimiDansk</h1>
           </div>
           <div>
-            <Button className="bg-krimidansk-steel-blue hover:bg-krimidansk-dark-steel text-white">
+            <Button className="bg-krimidansk-accent-grey hover:bg-krimidansk-light-grey text-white">
               <a href="#contact">Get Early Access</a>
             </Button>
           </div>
@@ -30,6 +31,15 @@ const Index = () => {
 
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-20 md:py-32 flex flex-col items-center text-center">
+          {/* Featured Image */}
+          <div className="mb-12 max-w-2xl mx-auto rounded-lg overflow-hidden shadow-2xl">
+            <img 
+              src="/lovable-uploads/0ce9fcc4-8c2e-4101-a41b-3d725d38a3fb.png" 
+              alt="Danish crime drama scene" 
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+          
           <div className="max-w-4xl mx-auto animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gradient">
               Learn Danish Through Crime Series
@@ -38,7 +48,7 @@ const Index = () => {
               Take your Danish from A2-B1 to advanced fluency by immersing yourself in popular Nordic noir series
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-krimidansk-steel-blue hover:bg-krimidansk-dark-steel text-white">
+              <Button size="lg" className="bg-krimidansk-accent-grey hover:bg-krimidansk-light-grey text-white">
                 <a href="#features">Learn More</a>
               </Button>
               <Button size="lg" variant="outline" className="waitlist-button">
@@ -92,7 +102,7 @@ const Index = () => {
         </section>
 
         {/* Separator */}
-        <Separator className="max-w-4xl mx-auto h-0.5 bg-krimidansk-steel-blue/30" />
+        <Separator className="max-w-4xl mx-auto h-0.5 bg-krimidansk-accent-grey/50" />
 
         {/* Series Showcase */}
         <section id="series" className="container mx-auto px-4 section-margin">
@@ -123,7 +133,7 @@ const Index = () => {
         </section>
 
         {/* For Schools Section */}
-        <section className="bg-krimidansk-midnight/80 backdrop-blur-sm py-16">
+        <section className="bg-krimidansk-dark-bg/90 backdrop-blur-sm py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">For Language Schools & Organizations</h2>
@@ -131,11 +141,11 @@ const Index = () => {
                 KrimiDansk offers special packages for educational institutions looking to enhance their Danish language curriculum with engaging, authentic content.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
-                <div className="bg-krimidansk-navy/40 p-8 rounded-xl border border-krimidansk-steel-blue/40">
+                <div className="bg-krimidansk-medium-grey/70 p-8 rounded-xl border border-krimidansk-accent-grey/40">
                   <h3 className="text-2xl font-semibold mb-4">Group Licensing</h3>
                   <p>Flexible licensing options for classrooms and language schools with dedicated teacher dashboards.</p>
                 </div>
-                <div className="bg-krimidansk-navy/40 p-8 rounded-xl border border-krimidansk-steel-blue/40">
+                <div className="bg-krimidansk-medium-grey/70 p-8 rounded-xl border border-krimidansk-accent-grey/40">
                   <h3 className="text-2xl font-semibold mb-4">Custom Integration</h3>
                   <p>Integrate KrimiDansk with your existing learning management systems and curriculum.</p>
                 </div>
@@ -146,9 +156,9 @@ const Index = () => {
 
         {/* CTA / Contact Section */}
         <section id="contact" className="container mx-auto px-4 section-margin">
-          <div className="max-w-3xl mx-auto text-center backdrop-blur-sm bg-krimidansk-midnight/70 p-8 rounded-xl border border-krimidansk-steel-blue/30">
+          <div className="max-w-3xl mx-auto text-center backdrop-blur-sm bg-krimidansk-dark-bg/80 p-8 rounded-xl border border-krimidansk-accent-grey/40 shadow-lg">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Get Notified When We Launch</h2>
-            <p className="text-xl text-krimidansk-light-text/80 mb-8">
+            <p className="text-xl text-krimidansk-light-text/90 mb-8">
               Be the first to know when KrimiDansk is available and receive exclusive early access offers.
             </p>
             <NewsletterForm />
@@ -156,16 +166,16 @@ const Index = () => {
         </section>
 
         {/* Footer */}
-        <footer className="bg-krimidansk-dark-blue/70 backdrop-blur-sm py-8 border-t border-krimidansk-steel-blue/30">
+        <footer className="bg-krimidansk-dark-bg/90 backdrop-blur-sm py-8 border-t border-krimidansk-accent-grey/30">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-4 md:mb-0">
                 <p className="font-semibold">KrimiDansk © {new Date().getFullYear()}</p>
               </div>
               <div className="flex gap-4">
-                <a href="#" className="hover:text-krimidansk-steel-blue transition-colors">About</a>
-                <a href="#" className="hover:text-krimidansk-steel-blue transition-colors">Privacy</a>
-                <a href="#" className="hover:text-krimidansk-steel-blue transition-colors">Contact</a>
+                <a href="#" className="hover:text-krimidansk-concrete transition-colors">About</a>
+                <a href="#" className="hover:text-krimidansk-concrete transition-colors">Privacy</a>
+                <a href="#" className="hover:text-krimidansk-concrete transition-colors">Contact</a>
               </div>
             </div>
           </div>
