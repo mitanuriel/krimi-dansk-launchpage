@@ -31,6 +31,15 @@ const Index = () => {
 
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-20 md:py-32 flex flex-col items-center text-center">
+          <div className="max-w-4xl mx-auto animate-fade-in mb-8" style={{ animationDelay: "0.1s" }}>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gradient">
+              Learn Danish Through Crime Series
+            </h1>
+            <p className="text-xl md:text-2xl mb-8">
+              Take your Danish from A2-B1 to advanced fluency by immersing yourself in popular Nordic noir series
+            </p>
+          </div>
+          
           {/* Featured Image */}
           <div className="mb-12 max-w-2xl mx-auto rounded-lg overflow-hidden shadow-2xl">
             <img 
@@ -40,21 +49,13 @@ const Index = () => {
             />
           </div>
           
-          <div className="max-w-4xl mx-auto animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gradient">
-              Learn Danish Through Crime Series
-            </h1>
-            <p className="text-xl md:text-2xl mb-8">
-              Take your Danish from A2-B1 to advanced fluency by immersing yourself in popular Nordic noir series
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-krimidansk-accent-grey hover:bg-krimidansk-light-grey text-white">
-                <a href="#features">Learn More</a>
-              </Button>
-              <Button size="lg" variant="outline" className="waitlist-button">
-                <a href="#contact">Join Waitlist</a>
-              </Button>
-            </div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" className="bg-krimidansk-accent-grey hover:bg-krimidansk-light-grey text-white">
+              <a href="#features">Learn More</a>
+            </Button>
+            <Button size="lg" variant="outline" className="waitlist-button">
+              <a href="#contact">Join Waitlist</a>
+            </Button>
           </div>
         </section>
 
