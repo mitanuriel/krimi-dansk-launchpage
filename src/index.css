@@ -128,6 +128,6 @@
   }
   
   .waitlist-button {
-    @apply bg-krimidansk-light-text text-krimidansk-midnight font-medium border-2 border-krimidansk-light-text hover:bg-transparent hover:text-krimidansk-light-text transition-all duration-300;
+    @apply bg-krimidansk-navy text-krimidansk-light-text font-medium border-2 border-krimidansk-steel-blue hover:bg-krimidansk-burgundy hover:border-krimidansk-light-text hover:text-white transition-all duration-300;
   }
 }

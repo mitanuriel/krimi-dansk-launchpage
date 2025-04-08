@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import FeatureCard from "@/components/FeatureCard";
@@ -42,7 +41,7 @@ const Index = () => {
               <Button size="lg" className="bg-krimidansk-steel-blue hover:bg-krimidansk-dark-steel text-white">
                 <a href="#features">Learn More</a>
               </Button>
-              <Button size="lg" variant="outline" className="border-krimidansk-light-text text-krimidansk-light-text hover:bg-krimidansk-navy/40">
+              <Button size="lg" variant="outline" className="waitlist-button">
                 <a href="#contact">Join Waitlist</a>
               </Button>
             </div>
