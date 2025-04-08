@@ -17,9 +17,11 @@ const NewsletterForm = () => {
     setLoading(true);
     
     try {
+      // Use explicit type casting to handle the newsletter_subscribers table
+      // since it was created manually and might not be in the generated types
       const { error } = await supabase
         .from('newsletter_subscribers')
-        .insert([{ email }]);
+        .insert([{ email }]) as unknown as { error: any };
         
       if (error) {
         if (error.code === '23505') {
