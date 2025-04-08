@@ -11,7 +11,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-krimidansk-midnight to-krimidansk-dark-blue text-krimidansk-light-text relative">
       {/* Background Image Overlay */}
       <div 
-        className="absolute inset-0 bg-[url('/lovable-uploads/51bcff28-9c50-4ad7-ab29-5427e4951aee.png')] bg-cover bg-center bg-fixed opacity-25 mix-blend-overlay"
+        className="absolute inset-0 bg-[url('/lovable-uploads/51bcff28-9c50-4ad7-ab29-5427e4951aee.png')] bg-cover bg-center bg-fixed opacity-40 mix-blend-overlay"
         aria-hidden="true"
       ></div>
 
@@ -147,7 +147,7 @@ const Index = () => {
 
         {/* CTA / Contact Section */}
         <section id="contact" className="container mx-auto px-4 section-margin">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-3xl mx-auto text-center backdrop-blur-sm bg-krimidansk-midnight/70 p-8 rounded-xl border border-krimidansk-steel-blue/30">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Get Notified When We Launch</h2>
             <p className="text-xl text-krimidansk-light-text/80 mb-8">
               Be the first to know when KrimiDansk is available and receive exclusive early access offers.

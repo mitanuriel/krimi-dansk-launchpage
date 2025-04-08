@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,17 +62,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// KrimiDansk updated colors inspired by the Nordic noir image
+				// KrimiDansk updated colors to better match the image
 				krimidansk: {
 					'dark-blue': '#0B2545',
-					'navy': '#13315C',
+					'navy': '#134074',
 					'steel-blue': '#4C6885',
 					'dark-steel': '#2D4A65',
-					'midnight': '#121B30',
+					'midnight': '#091C32',
 					'light-text': '#EEF4ED',
 					'dark-text': '#1A1F2B',
 					'red': '#8B0000',
-					'burgundy': '#4B0C2C',
+					'burgundy': '#5F0F30',
 				}
 			},
 			borderRadius: {

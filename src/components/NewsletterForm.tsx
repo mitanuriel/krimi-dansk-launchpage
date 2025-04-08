@@ -67,7 +67,7 @@ const NewsletterForm = () => {
       />
       <Button 
         type="submit" 
-        className="bg-krimidansk-steel-blue hover:bg-krimidansk-dark-steel text-white"
+        className="waitlist-button"
         disabled={loading}
       >
         {loading ? "Submitting..." : "Notify Me"}

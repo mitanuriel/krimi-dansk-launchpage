@@ -112,11 +112,11 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-gradient-to-r from-krimidansk-steel-blue via-krimidansk-light-text to-krimidansk-dark-steel bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-krimidansk-steel-blue via-krimidansk-light-text to-krimidansk-burgundy bg-clip-text text-transparent;
   }
   
   .bg-gradient-card {
-    @apply bg-gradient-to-br from-krimidansk-dark-blue/20 to-krimidansk-navy/40;
+    @apply bg-gradient-to-br from-krimidansk-dark-blue/20 to-krimidansk-navy/40 backdrop-blur-sm;
   }
   
   .section-margin {
@@ -125,5 +125,9 @@
   
   .hover-scale {
     @apply transition-transform duration-300 hover:scale-105;
+  }
+  
+  .waitlist-button {
+    @apply bg-krimidansk-light-text text-krimidansk-midnight font-medium border-2 border-krimidansk-light-text hover:bg-transparent hover:text-krimidansk-light-text transition-all duration-300;
   }
 }
