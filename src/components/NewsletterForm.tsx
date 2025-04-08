@@ -59,7 +59,7 @@ const NewsletterForm = () => {
       <Input
         type="email"
         placeholder="Your email address"
-        className="bg-white border-krimidansk-navy"
+        className="bg-white/10 backdrop-blur-sm border-krimidansk-steel-blue/50 text-white"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
@@ -67,7 +67,7 @@ const NewsletterForm = () => {
       />
       <Button 
         type="submit" 
-        className="bg-krimidansk-navy hover:bg-krimidansk-dark-blue text-white"
+        className="bg-krimidansk-steel-blue hover:bg-krimidansk-dark-steel text-white"
         disabled={loading}
       >
         {loading ? "Submitting..." : "Notify Me"}

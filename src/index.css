@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 @import url('./fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
 
 @layer base {
   :root {
@@ -45,6 +46,10 @@
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    /* Font variables */
+    --heading-font: 'Libre Baskerville', serif;
+    --body-font: 'Barlow', sans-serif;
   }
 
   .dark {
@@ -107,7 +112,7 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-gradient-to-r from-krimidansk-navy via-krimidansk-red to-krimidansk-dark-blue bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-krimidansk-steel-blue via-krimidansk-light-text to-krimidansk-dark-steel bg-clip-text text-transparent;
   }
   
   .bg-gradient-card {

@@ -11,7 +11,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-krimidansk-midnight to-krimidansk-dark-blue text-krimidansk-light-text relative">
       {/* Background Image Overlay */}
       <div 
-        className="absolute inset-0 bg-crime-scene bg-cover bg-center bg-fixed opacity-15 mix-blend-overlay"
+        className="absolute inset-0 bg-[url('/lovable-uploads/51bcff28-9c50-4ad7-ab29-5427e4951aee.png')] bg-cover bg-center bg-fixed opacity-25 mix-blend-overlay"
         aria-hidden="true"
       ></div>
 
@@ -23,7 +23,7 @@ const Index = () => {
             <h1 className="text-2xl font-bold text-krimidansk-light-text">KrimiDansk</h1>
           </div>
           <div>
-            <Button className="bg-krimidansk-red hover:bg-krimidansk-burgundy text-white">
+            <Button className="bg-krimidansk-steel-blue hover:bg-krimidansk-dark-steel text-white">
               <a href="#contact">Get Early Access</a>
             </Button>
           </div>
@@ -39,7 +39,7 @@ const Index = () => {
               Take your Danish from A2-B1 to advanced fluency by immersing yourself in popular Nordic noir series
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-krimidansk-red hover:bg-krimidansk-burgundy text-white">
+              <Button size="lg" className="bg-krimidansk-steel-blue hover:bg-krimidansk-dark-steel text-white">
                 <a href="#features">Learn More</a>
               </Button>
               <Button size="lg" variant="outline" className="border-krimidansk-light-text text-krimidansk-light-text hover:bg-krimidansk-navy/40">
@@ -93,7 +93,7 @@ const Index = () => {
         </section>
 
         {/* Separator */}
-        <Separator className="max-w-4xl mx-auto h-0.5 bg-krimidansk-navy/30" />
+        <Separator className="max-w-4xl mx-auto h-0.5 bg-krimidansk-steel-blue/30" />
 
         {/* Series Showcase */}
         <section id="series" className="container mx-auto px-4 section-margin">
@@ -124,7 +124,7 @@ const Index = () => {
         </section>
 
         {/* For Schools Section */}
-        <section className="bg-krimidansk-midnight py-16">
+        <section className="bg-krimidansk-midnight/80 backdrop-blur-sm py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">For Language Schools & Organizations</h2>
@@ -132,11 +132,11 @@ const Index = () => {
                 KrimiDansk offers special packages for educational institutions looking to enhance their Danish language curriculum with engaging, authentic content.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
-                <div className="bg-krimidansk-navy/40 p-8 rounded-xl border border-krimidansk-dark-blue/40">
+                <div className="bg-krimidansk-navy/40 p-8 rounded-xl border border-krimidansk-steel-blue/40">
                   <h3 className="text-2xl font-semibold mb-4">Group Licensing</h3>
                   <p>Flexible licensing options for classrooms and language schools with dedicated teacher dashboards.</p>
                 </div>
-                <div className="bg-krimidansk-navy/40 p-8 rounded-xl border border-krimidansk-dark-blue/40">
+                <div className="bg-krimidansk-navy/40 p-8 rounded-xl border border-krimidansk-steel-blue/40">
                   <h3 className="text-2xl font-semibold mb-4">Custom Integration</h3>
                   <p>Integrate KrimiDansk with your existing learning management systems and curriculum.</p>
                 </div>
@@ -157,16 +157,16 @@ const Index = () => {
         </section>
 
         {/* Footer */}
-        <footer className="bg-krimidansk-dark-blue/50 py-8 border-t border-krimidansk-navy/30">
+        <footer className="bg-krimidansk-dark-blue/70 backdrop-blur-sm py-8 border-t border-krimidansk-steel-blue/30">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-4 md:mb-0">
                 <p className="font-semibold">KrimiDansk © {new Date().getFullYear()}</p>
               </div>
               <div className="flex gap-4">
-                <a href="#" className="hover:text-krimidansk-red transition-colors">About</a>
-                <a href="#" className="hover:text-krimidansk-red transition-colors">Privacy</a>
-                <a href="#" className="hover:text-krimidansk-red transition-colors">Contact</a>
+                <a href="#" className="hover:text-krimidansk-steel-blue transition-colors">About</a>
+                <a href="#" className="hover:text-krimidansk-steel-blue transition-colors">Privacy</a>
+                <a href="#" className="hover:text-krimidansk-steel-blue transition-colors">Contact</a>
               </div>
             </div>
           </div>

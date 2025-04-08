@@ -63,15 +63,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// KrimiDansk updated colors for higher contrast
+				// KrimiDansk updated colors inspired by the Nordic noir image
 				krimidansk: {
 					'dark-blue': '#0B2545',
 					'navy': '#13315C',
-					'red': '#8B0000',
-					'burgundy': '#4B0C2C',
+					'steel-blue': '#4C6885',
+					'dark-steel': '#2D4A65',
 					'midnight': '#121B30',
 					'light-text': '#EEF4ED',
 					'dark-text': '#1A1F2B',
+					'red': '#8B0000',
+					'burgundy': '#4B0C2C',
 				}
 			},
 			borderRadius: {
