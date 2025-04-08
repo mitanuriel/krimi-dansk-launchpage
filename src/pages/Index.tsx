@@ -18,11 +18,11 @@ const Index = () => {
       {/* Content */}
       <div className="relative z-10">
         {/* Header */}
-        <header className="container mx-auto py-6 px-4 flex justify-between items-center">
-          <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-krimidansk-light-text">KrimiDansk</h1>
+        <header className="container mx-auto py-6 px-4">
+          <div className="flex justify-center items-center mb-4">
+            <h1 className="text-3xl font-bold text-krimidansk-light-text">KrimiDansk</h1>
           </div>
-          <div>
+          <div className="flex justify-center">
             <Button className="bg-krimidansk-accent-grey hover:bg-krimidansk-light-grey text-white">
               <a href="#contact">Get Early Access</a>
             </Button>
