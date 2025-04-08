@@ -63,13 +63,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// KrimiDansk custom colors
+				// KrimiDansk updated colors for higher contrast
 				krimidansk: {
-					'light-mint': '#c5e8e3',
-					'teal': '#52a9bc',
-					'navy': '#173753',
-					'light-blue': '#d6e8f7',
-					'blue': '#6aade4',
+					'dark-blue': '#0B2545',
+					'navy': '#13315C',
+					'red': '#8B0000',
+					'burgundy': '#4B0C2C',
+					'midnight': '#121B30',
+					'light-text': '#EEF4ED',
+					'dark-text': '#1A1F2B',
 				}
 			},
 			borderRadius: {
@@ -108,6 +110,9 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out forwards',
 				'slide-in': 'slide-in 0.5s ease-out forwards'
+			},
+			backgroundImage: {
+				'crime-scene': "url('/crime-scene-bg.jpg')",
 			}
 		}
 	},
