@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import FeatureCard from "@/components/FeatureCard";
@@ -139,12 +138,12 @@ const Index = () => {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">For Language Schools & Organizations</h2>
               <p className="text-xl mb-8">
-                KrimiDansk offers special packages for educational institutions looking to enhance their Danish language curriculum with engaging, authentic content.
+                As a non-profit initiative, KrimiDansk is committed to enhancing Danish language education through engaging, authentic content.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
                 <div className="bg-krimidansk-medium-grey/70 p-8 rounded-xl border border-krimidansk-accent-grey/40">
-                  <h3 className="text-2xl font-semibold mb-4">Group Licensing</h3>
-                  <p>Flexible licensing options for classrooms and language schools with dedicated teacher dashboards.</p>
+                  <h3 className="text-2xl font-semibold mb-4">Building the Future Together</h3>
+                  <p>Because we operate as a non-profit, your insights and experiences are at the heart of our development process. Let's partner up to make Danish language education more accessible, impactful, and inspiring for everyone.</p>
                 </div>
                 <div className="bg-krimidansk-medium-grey/70 p-8 rounded-xl border border-krimidansk-accent-grey/40">
                   <h3 className="text-2xl font-semibold mb-4">Custom Integration</h3>
